@@ -70,7 +70,7 @@ prediction = load_clf.predict(df)
 prediction_proba = load_clf.predict_proba(df)
 
 
-st.subheader('Predicted Species')
+st.subheader('Row wise Prediction of  Penguin Species')
 penguins_species = np.array(['Adelie','Chinstrap','Gentoo'])
 st.write(penguins_species[prediction])
 
